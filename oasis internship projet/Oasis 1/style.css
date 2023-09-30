@@ -1,0 +1,173 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+
+img {
+  max-width: 100%; 
+}
+
+
+.heading {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Amita', cursive;
+  color: #62336f;
+}
+
+
+.navbar {
+  background-color: #62336f;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.navbar a:hover {
+  background-color: #3f024f;
+}
+
+
+table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.card {
+  width: 250px;
+  height: 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f8eafc73;
+  border: 5px solid #d7bcd3;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card .card-img-top {
+  display: block;
+  margin: 0 auto;
+}
+
+.card .card-title {
+  text-align: center;
+  color: #3f024f;
+  font-size: medium;
+}
+
+.para1 {
+  text-align: justify;
+}
+
+#Benefits {
+  float: left;
+  width: 40%; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.para2 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.seventh_image img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+#About {
+  float: right;
+    width: 60%; 
+    padding-left: 300px;
+    box-sizing: border-box;
+}
+
+.para3 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.third_image img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+#contact {
+  text-align: center;
+  padding: 40px 20px; 
+  clear: both;
+}
+
+.contact-us {
+  max-width: 600px;
+    margin: 0 auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #c9bacdcb;
+}
+
+.contact-us h2 {
+  text-align: center;
+}
+
+.contact-us form {
+  margin-bottom: 20px;
+}
+
+.contact-us label,
+.contact-us input,
+.contact-us textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.contact-us textarea {
+  height: 100px;
+}
+
+.contact-us button {
+  padding: 10px 20px;
+  background-color: #52a853;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-us button:hover {
+  background-color: #3f024f;
+}
+
+.contact-info,
+.social-links {
+  margin-bottom: 20px;
+}
+
+.contact-info h3,
+.social-links h3 {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #62336f;
+}
+
+.social-links a:hover {
+  color: #3f024f;
+}
